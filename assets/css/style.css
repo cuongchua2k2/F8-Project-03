@@ -276,3 +276,20 @@ a {
 .service__cta {
   margin-top: 55px;
 }
+
+/* === work ===== */
+
+.work {
+  padding: 35px 0 100px;
+  background-color: #f6fbff;
+}
+
+.work__title {
+  margin-top: 65px;
+  text-align: left;
+}
+
+.work__desc {
+  text-align: left;
+  margin-left: 0;
+}
