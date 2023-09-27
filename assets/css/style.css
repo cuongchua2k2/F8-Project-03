@@ -293,3 +293,53 @@ a {
   text-align: left;
   margin-left: 0;
 }
+
+.work__list {
+  margin-top: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0 30px;
+}
+
+.work__item {
+  padding: 43px;
+  border: 16px solid #eaf6ff;
+  width: 32%;
+  border-radius: 4px;
+}
+
+.work__item__title {
+  margin-top: 18px;
+  color: #10375c;
+  font-size: 2.6rem;
+  font-weight: 600;
+  line-height: 138.462%;
+}
+
+.work__item__desc {
+  margin-top: 28px;
+  width: 90%;
+  color: #575f66;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 175%;
+}
+
+.work__item__more {
+  display: inline-block;
+  margin-top: 18px;
+  color: #575f66;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 175%;
+}
+
+.work__item:hover {
+  border-color: #2e80ce;
+}
+
+.work__item__more:hover {
+  color: #2e80ce;
+  cursor: pointer;
+}
