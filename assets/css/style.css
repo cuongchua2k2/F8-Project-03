@@ -343,3 +343,55 @@ a {
   color: #2e80ce;
   cursor: pointer;
 }
+
+/* ===============================about=============================== */
+
+.about-us {
+  padding-top: 100px;
+}
+
+.about {
+  padding: 70px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about__left {
+  display: flex;
+}
+
+.about__image {
+  width: 512px;
+  height: 370px;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.07);
+}
+
+.about__image-small {
+  margin: 121px 0 0 -274px;
+  border-radius: 6px;
+  width: 332px;
+  height: 370px;
+  object-fit: cover;
+}
+
+.about__right {
+  width: 470px;
+  margin-left: 130px;
+}
+
+.about__title {
+  text-align: left;
+}
+
+.about__desc {
+  width: 90%;
+  text-align: left;
+  margin-left: 0;
+}
+
+.about__cta {
+  margin-top: 38px;
+}
