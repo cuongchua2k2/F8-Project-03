@@ -413,7 +413,7 @@ a {
 }
 
 .dortors__list {
-  margin-top: 70px;
+  padding: 70px 0;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 0 30px;
@@ -444,4 +444,51 @@ a {
   font-size: 1.4rem;
   font-weight: 300;
   line-height: 185.714%;
+}
+
+/* ===================================call to download=========================================== */
+
+.download {
+  margin-top: 195px;
+}
+
+.download__body {
+  border-radius: 4px;
+  height: 427px;
+  background: #2e80ce;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.download__phone {
+  bottom: 0;
+  margin-top: -95px;
+  margin-left: 70px;
+}
+
+.download__info {
+  width: 50%;
+}
+
+.download__title {
+  text-align: left;
+  width: 80%;
+  color: #fff;
+}
+
+.download__desc {
+  margin-left: 0;
+  text-align: left;
+  width: 95%;
+  color: #fff;
+}
+
+.app {
+  margin-top: 38px;
+}
+
+.app-store {
+  margin-left: 28px;
 }
