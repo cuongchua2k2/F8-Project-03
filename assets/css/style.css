@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  scroll-behavior: smooth;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -491,4 +496,126 @@ a {
 
 .app-store {
   margin-left: 28px;
+}
+
+/* ======================================event==================================== */
+
+.event {
+  padding: 170px 0 70px;
+}
+
+.event .content {
+  display: flex;
+  align-items: center;
+}
+
+.event-left {
+  width: 40%;
+}
+
+.event__title {
+  text-align: left;
+  width: 95%;
+}
+
+.event-left__read-more {
+  display: inline-block;
+  margin: 28px 0;
+  text-decoration: underline;
+  color: var(--primary-color);
+  font-family: Inter;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 155.556%;
+}
+
+.arrow {
+  color: #575f66;
+}
+
+.arrow:nth-child(2) {
+  margin-left: 18px;
+}
+
+.arrow:hover {
+  color: #fff;
+}
+
+/* event-list */
+
+.event-list {
+  margin-left: auto;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  gap: 0 30px;
+}
+
+.event__img {
+  width: 270px;
+  height: 172px;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+}
+
+.event-item__body {
+  padding: 18px 22px 21px;
+}
+
+.event__item-title {
+  color: #10375c;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 162.5%;
+}
+
+.event__desc {
+  margin-top: 10px;
+  width: 93%;
+  color: #575f66;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 171.429%;
+}
+
+.event__learn-more {
+  margin-top: 12px;
+  color: #10375c;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.event-item:hover {
+  box-shadow: 0px 18px 50px 0px rgba(0, 0, 0, 0.05);
+}
+
+.event__learn-more:hover {
+  color: #2e80ce;
+}
+
+/* ======================================call to contact========================== */
+
+.cta-contact {
+  margin-top: 100px;
+  padding: 100px 0;
+  /* backgro */
+}
+
+.cta-contact__horizontal {
+  margin-top: 18px;
+  width: 136px;
+  height: 2px;
+  background-color: #2e80ce;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.contact-doctor {
+  margin-top: 38px;
+  display: flex;
+  justify-content: center;
 }
